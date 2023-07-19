@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magar's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/50197c1d4a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+                <nav>
+                    <img src="images/logos.png" class="nav-logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Web and Graphics Developer</p>
+                    <h1>Hey, I am <span>Preshit</span>.<br> Welcome to my site! </h1>
+                </div>
+        </div>
+    </div>
+
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/col1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        I am a 21 year old final year CSE student up-skilled with good programming as well as web development knowledge . Being a proficient communicator and a logical thinker, I am looking to connect and work with people with similar mindset and dedication. I have completed various projects on web development as well as game development which are projected below on this website. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML, CSS and Javascript<br> <span>&lt;Web-development&gt;</span></li>
+                            <li>Java, MySQL, Node.js <br><span>&lt;Programming Languages&gt;</span></li>
+                            <li>Unreal Engine<br><span>&lt;Graphics&gt;</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>HSC from PACE Junior Science College<br> <span>&lt;2018-20&gt;</span></li>
+                            <li>BE in Computer Engineering from K.C College of Engineering, Thane East<br><span>&lt;2021-24&gt;</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>I have hands-on experience by creating several projects by myself.<br> No professional experience still being a student.<br> <span>&lt;Seeking new challenges and professional experiences&gt;</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+    <div class="container">
+        <h1 class="subtitle">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-chrome"></i>
+                <h2>Website Development</h2>
+                <p>Create top quality front-end and back-end websites fully crafted and optimised from scratch.</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-brush"></i>
+                <h2>Graphics Development</h2>
+                <p>Develop entry level graphical animations and design simple games using Unreal Engine.</p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>Design</h2>
+                <p>Get creative and visually appealing UI/UX elements or designs.</p>
+                <a href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/portfolio.jpg">
+                    <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>Personal portfolio website for depicting my project and skills.</p>
+                    <a href=""><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/eafc2.jpg">
+                    <div class="layer">
+                    <h3>EA-SPORTS FC24</h3>
+                    <p>Replica website for a popular football video game called FC24.</p>
+                    <a href="https://github.com/preshitmagar/EA-Sports-FC-Clone-Website"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/UE5.webp">
+                    <div class="layer">
+                        <h3>Unreal Engine Project</h3>
+                        <p>A very simple but cool game project based on Unreal Engine 5 .</p>
+                        <a href="https://www.framer.com/templates/coming-soon-website/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/preshitmagar" class="btn">Open github</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>preshitmagar.11@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile-screen-button"></i>+91 9082664595</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/preshit-magar/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/preshitmagar/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/iM.pM.11"><i class="fa-brands fa-facebook"></i></i></a>
+                        <a href="https://github.com/preshitmagar"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Resume-1.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="to-top">
+            <a href="#header">Back to top</a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Magar Developer™. Inspired by GreatStack <i class="fa-solid fa-heart"></i></p>
+    </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyIo1njJQ_A_DWpPi_14oysi1nusoUMBlCoTsWNfLRhatEo1jP785G17HDLFPCbMEmy/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Successfully sent details!', response) ,form.reset())
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
